@@ -7,51 +7,39 @@
   padding: 0;
 }
 
-/*Navigation bar rules*/
+/*Main page rules*/
 main {
-  background-image: url(images/pexels-wallpaper.jpg);
-  background-color: #FFF;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+  display: block;
+  margin: 30px 8px;
+  padding: 15px;
+  background-color: #E9D5DA;
+  border-radius: 10px;
 }
 
-.nav_bar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color:  rgba(0,0,0,0.6);
-  position: fixed;
-  top: 0;
-  padding: 25px 35px;
+/*Title and subtitle rules*/
+#title {
+  text-align: center;
+}
+
+h1 {
   font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-weight: 700;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+  font-size: 4rem;
 }
 
-.nav_bar a {
-  color: #FFF;
-  letter-spacing: 1px;
-  text-decoration: none;
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
-/*Menu links rules*/
-.menu_list {
-  list-style: none;
+/*Figure and caption rules*/
+#img-div {
+  text-align: center;
+  padding: 10px;
+  background: #EEE;
 }
 
-.menu_labels {
-  display: inline-block;
-}
-
-.menu_labels a {
-  margin-left: 40px;
-}
-
-/*Figure rules*/
-#image {
-  width: 500px;
-  height: 500px;
+#img-caption {
+  font-family: "Roboto", sans-serif;
+  margin: 15px 0px 5px 0px;
 }
